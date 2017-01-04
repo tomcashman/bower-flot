@@ -1,0 +1,39 @@
+{
+    "name": "bower-flot",
+    "version": "1.0.0",
+    "main": [
+    "flot.js"
+  ],
+    "authors": [
+    "Thomas Cashman <thomascashman404@gmail.com>"
+  ],
+    "description": "Flot.js + plugins bundled into a single Bower package",
+    "keywords": [],
+    "license": "MIT License",
+    "private": false,
+    "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    ".settings",
+    ".bowerrc",
+    ".gitignore",
+    ".jshintignore",
+    ".jshintrc",
+    "bower.json",
+    "build.gradle",
+    "gulpfile.js",
+    "package.json",
+    "README.md"
+  ],
+    "dependencies": {
+    },
+    "devDependencies": {
+        "flot": "https://github.com/flot/flot.git#0.8.3",
+        "flot.axislabels": "https://github.com/markrcote/flot-axislabels.git#master",
+        "flot.tooltip": "https://github.com/krzysu/flot.tooltip.git#0.9.0",
+        "flot.orderBars": "https://github.com/emmerich/flot-orderBars.git#1.0.0",
+        "flot.curvedLines": "https://github.com/MichaelZinsmaier/CurvedLines.git#1.1.1",
+        "flot.hiddengraphs": "https://github.com/markrcote/flot-hiddengraphs.git#master"
+    }
+}
